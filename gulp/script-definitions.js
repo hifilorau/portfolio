@@ -9,6 +9,7 @@ module.exports = {
 
   vendor: [
     'bower_components/jquery/dist/jquery.min.js',
-    'bower_components/lodash/lodash.min.js'
+    'bower_components/lodash/lodash.min.js',
+		'bower_components/lightslider/dist/js/lightslider.min.js'
   ]
 };

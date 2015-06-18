@@ -1,0 +1,70 @@
+.resume-wrap {
+  font-family: 'Lato', sans-serif;
+  a {
+    color: #E74E30;
+  }
+}
+
+.jobs {
+  border-top: 1px black solid;
+}
+
+.job-wrapper:nth-child(even) {
+  background-color:#fbfbfb;
+}
+
+.job-wrapper:nth-child(odd) {
+  background-color:#EEEEEE;
+
+}
+
+.job-wrapper {
+  padding: 2rem;
+}
+
+.job-title {
+  margin: 0;
+}
+
+.name {
+  margin:0;
+  padding: 0 0 0 2rem;
+  margin-bottom: .3em;
+}
+
+.responsibilities, .accomplishments {
+  font-weight: 700;
+  margin-left: -2rem;
+}
+
+.responsibilities-ul, .accomplishments-ul {
+  list-style-type: square;
+  margin-left: 2rem;
+}
+
+.contact-company {
+  font-weight: 700;
+}
+
+.contact-info {
+  margin: 0;
+  padding: 0;
+  margin-left: 2rem;
+}
+
+.contact-stuff {
+  padding: 3em 0;
+  display: relative;
+}
+
+.css-button{
+    height: 60px;
+    width: 130px;
+    padding: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #E74E30;
+    border-width: 0px;
+    border-color: #4B8F29;
+}

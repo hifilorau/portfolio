@@ -1,1 +1,3 @@
-app.showInitialPage();
+
+app.transformText();
+app.slider();
