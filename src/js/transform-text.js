@@ -4,8 +4,8 @@ var txt = $("#rau-holder");
 	
 
 var options = {
-  duration: 2500,          // Time (ms) each blurb will remain on screen
-  rearrangeDuration: 500, // Time (ms) a character takes to reach its position
+  duration: 1000,          // Time (ms) each blurb will remain on screen
+  rearrangeDuration: 300, // Time (ms) a character takes to reach its position
   effect: 'random',        // Animation effect the characters use to appear
   centered: true           // Centers the text relative to its container
 };

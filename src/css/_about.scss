@@ -18,6 +18,7 @@
 	left: 50%;
 	transform: translate(-50%);
 	z-index: 100;
+	
 	li {
 		display: inline;
 		padding: 1em 3em;
@@ -45,7 +46,7 @@
 .slides {
 //	padding-top: 5em;
 	li {
-	min-height: 55em;
+	min-height: 93vh;
 	
 	}
 }
@@ -66,6 +67,9 @@
 
 .about-content {
 	padding-top: 2em;
+	background: url('https://s3-us-west-2.amazonaws.com/hifilorau/big-wheel.jpg') center center fixed;
+	background-size: cover;
+	min-height: 100vh;
 }
 
 .work-p {
@@ -74,6 +78,7 @@
 	vertical-align: top;
 	margin: 0;
 	font-weight: 300;
+	padding-top: 2.25em;
   
 //	padding-right: 2.5em;
 	
@@ -83,7 +88,7 @@
 	display: inline-block;
 	padding-top: 1em;
 	text-align: center;
-	flex-grow: 1.2
+	flex-grow: 1.2;
 }
 
 .work-laptop {
@@ -115,10 +120,16 @@
 
 .hire-me {
 	padding-top: 2em;
-	font-size: 3em;
+	font-size: 1.5em;
 	text-align: center;
 	
 }
 
 .hire-me-link {
+	min-width: 600px;
+	border: 2px solid $orange;
+	padding: .35em 1em;
+	border-radius: .3em;
+	background-color: $orange;
+	color: whitesmoke;
 }
