@@ -22,8 +22,10 @@
   padding: 2rem;
 }
 
-.job-title {
+.job-title, ,.company, .job-description, .dates, .name {
   margin: 0;
+	text-align: left;
+	padding: 0 0 .25em 0;
 }
 
 .name {
