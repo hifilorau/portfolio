@@ -1,3 +1,0 @@
-
-app.transformText();
-app.slider();

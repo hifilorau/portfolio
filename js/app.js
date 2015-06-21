@@ -1,3 +1,79 @@
+// The namespace for this application
+var app = {};
+
+  app.slider = function () {
+        var heroTxt = $('#rau-holder');
+				var aboutContent=$('.about-content');
+				var aboutButton = $('.about-button');
+		    var workButton =$('.work-button');
+		    var orange = '#E74E30';
+		    var black = '#444444'
+				
+				$('.home').css({ 'color': black });
+			
+		  $('.flexslider').flexslider({
+					controlNav: false,
+				  slideshowSpeed: 40000, 
+				  prevText: "i",
+				  nextText: "h"
+				  
+				});
+		 
+		var sliderCtrl =$('.flex-direction-nav');
+		  sliderCtrl.hide();
+		  aboutContent.hide();
+		  $('.work').hide();
+		  
+			
+		
+//			aboutButton.click(function(){
+//			heroTxt.hide();
+//			$('.work').hide();
+//			aboutContent.show();
+//			});
+		
+			$('.home').click(function(){
+				$(this).css({ 'color': black });
+				workButton.css({ 'color': orange});
+				aboutButton.css({ 'color': orange});
+				sliderCtrl.hide();
+				aboutContent.hide();
+				$('.work').hide();
+				heroTxt.show();
+				
+//				app.transformTxt();
+				console.log('fire');
+				
+				
+			});
+		
+		
+		   workButton.click(function(){
+				$(this).css({ 'color': 'black'});
+				$('.home').css({ 'color': orange});
+				 	$(this).css({ 'color': black });
+				aboutButton.css({ 'color': orange});
+				heroTxt.hide();
+				aboutContent.hide();
+				$('.work').show();				
+				sliderCtrl.show();	
+			});
+		
+		 aboutButton.click(function () {
+			 	$(this).css({ 'color': black });
+				workButton.css({ 'color': orange});
+			 $('.home').css({ 'color': orange});
+			 	heroTxt.hide();
+			$('.work').hide();
+			aboutContent.fadeIn(3000);
+//          $('.about-content').show(".about-content", { direction: "left" }, 1000);
+    });
+		   
+			 
+  
+		
+		    
+    };
 /**
 Textualizer v2.5.0
 @author Kirollos Risk
@@ -545,3 +621,29 @@ THE SOFTWARE.
     ];
 
 })(jQuery, window);
+app.transformText = function () {
+var list = ['I can make it better', 'Front-End Development', 'User Research', 'Usability Testing', 'UI/UX Design', 'Creativity', 'And Just Overall Ass-kicking.', 'I can make it better'];  // list of blurbs
+var txt = $("#rau-holder");
+	
+
+var options = {
+  duration: 1000,          // Time (ms) each blurb will remain on screen
+  rearrangeDuration: 300, // Time (ms) a character takes to reach its position
+  effect: 'random',        // Animation effect the characters use to appear
+  centered: true           // Centers the text relative to its container
+};
+
+
+
+txt.textualizer(list, options); // textualize it!
+txt.textualizer('start');
+
+
+//txt.textualizer('pause');	// start
+	
+};
+
+app.transformText();
+app.slider();
+
+//# sourceMappingURL=app.js.map
