@@ -21,7 +21,7 @@
 				$(this).css({ 'color': black });
 				workButton.css({ 'color': orange});
 				aboutButton.css({ 'color': orange});
-				contactCutton.css({ 'color': orange});
+				contactButton.css({ 'color': orange});
 				aboutContent.hide();
 				contactContent.hide();
 				$('.work').hide();
@@ -33,7 +33,7 @@
 				$(this).css({ 'color': 'black'});
 				$('.home').css({ 'color': orange});
 				aboutButton.css({ 'color': orange});
-				contactCutton.css({ 'color': orange});
+				contactButton.css({ 'color': orange});
 				contactContent.hide();
 				heroTxt.hide();
 				aboutContent.hide();
@@ -44,7 +44,7 @@
 			 $(this).css({ 'color': black });
 			 workButton.css({ 'color': orange});
 			 $('.home').css({ 'color': orange});
-			 contactCutton.css({ 'color': orange});
+			 contactButton.css({ 'color': orange});
 			 heroTxt.hide();
 			 contactContent.hide();
 			 $('.work').hide();
