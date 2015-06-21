@@ -187,7 +187,9 @@ li {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   min-height: 7vh;
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+  position: relative;
+  z-index: 10000; }
 
 .header-nav li {
   padding-top: 1em;
@@ -300,6 +302,9 @@ li {
   border-radius: .3em;
   background-color: #E74E30;
   color: whitesmoke; }
+
+.contact-list-ul li {
+  font-family: hflr; }
 
 @media screen and (max-width: 500px) {
   .slides li {

@@ -6,44 +6,29 @@ var app = {};
 				var aboutContent=$('.about-content');
 				var aboutButton = $('.about-button');
 		    var workButton =$('.work-button');
+		    var contactButton =$('.contact-button');
+				var contactContent=$('.contact-content');
 		    var orange = '#E74E30';
-		    var black = '#444444'
+		    var black = '#444444';
 				
 				$('.home').css({ 'color': black });
 			
-//		  $('.flexslider').flexslider({
-//					controlNav: false,
-//				  slideshowSpeed: 40000, 
-//				  prevText: "i",
-//				  nextText: "h"
-//				  
-//				});
-//		 
-//		var sliderCtrl =$('.flex-direction-nav');
-//		  sliderCtrl.hide();
-		  aboutContent.hide();
-		  $('.work').hide();
-//		  
-//			
-		
-//			aboutButton.click(function(){
-//			heroTxt.hide();
-//			$('.work').hide();
-//			aboutContent.show();
-//			});
+
+				aboutContent.hide();
+				$('.work').hide();
+				contactContent.hide();
+		    console.log('hi');
+
 		
 			$('.home').click(function(){
+				alert('fire');
 				$(this).css({ 'color': black });
 				workButton.css({ 'color': orange});
 				aboutButton.css({ 'color': orange});
 				aboutContent.hide();
+				contactContent.hide();
 				$('.work').hide();
-				heroTxt.show();
-				
-//				app.transformTxt();
-				console.log('fire');
-				
-				
+				heroTxt.show();	
 			});
 		
 		
@@ -52,26 +37,23 @@ var app = {};
 				$('.home').css({ 'color': orange});
 				 	$(this).css({ 'color': black });
 				aboutButton.css({ 'color': orange});
+				contactContent.hide();
 				heroTxt.hide();
 				aboutContent.hide();
 				$('.work').show();					
 			});
 		
 		 aboutButton.click(function () {
-			 	$(this).css({ 'color': black });
-				workButton.css({ 'color': orange});
+			 $(this).css({ 'color': black });
+			 workButton.css({ 'color': orange});
 			 $('.home').css({ 'color': orange});
-			 	heroTxt.hide();
-			$('.work').hide();
-			aboutContent.fadeIn(3000);
-//          $('.about-content').show(".about-content", { direction: "left" }, 1000);
+			 heroTxt.hide();
+			 contactContent.hide();
+			 $('.work').hide();
+			 aboutContent.fadeIn(3000);
     });
 		   
-			 
-  
-		
-		    
-    };
+	};
 /**
 Textualizer v2.5.0
 @author Kirollos Risk
