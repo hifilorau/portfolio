@@ -303,12 +303,23 @@ li {
   background-color: #E74E30;
   color: whitesmoke; }
 
-.contact-list-ul li {
-  font-family: hflr; }
+.contact-list-ul {
+  text-align: center;
+  padding-top: 3em; }
+  .contact-list-ul li {
+    padding: 20px;
+    font-family: hflr;
+    display: inline-block;
+    font-size: 3em; }
+  .contact-list-ul li a:hover {
+    color: #444444; }
+
+.contact-content p {
+  padding: 2em; }
 
 @media screen and (max-width: 500px) {
   .slides li {
     overflow: hidden;
-    height: 200vh; }
+    padding-bottom: 4em; }
   .work-laptop {
     max-width: 300px; } }
