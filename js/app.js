@@ -36,7 +36,6 @@ var app = {};
 				$(this).css({ 'color': black });
 				workButton.css({ 'color': orange});
 				aboutButton.css({ 'color': orange});
-				sliderCtrl.hide();
 				aboutContent.hide();
 				$('.work').hide();
 				heroTxt.show();
@@ -55,8 +54,7 @@ var app = {};
 				aboutButton.css({ 'color': orange});
 				heroTxt.hide();
 				aboutContent.hide();
-				$('.work').show();				
-				sliderCtrl.show();	
+				$('.work').show();					
 			});
 		
 		 aboutButton.click(function () {
