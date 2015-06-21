@@ -130,7 +130,7 @@ li {
 .name {
   margin: 0;
   padding: 0 0 0 2rem;
-  margin-bottom: .3em; }
+  margin-bottom: .15em; }
 
 .name a {
   color: #444444; }
@@ -188,7 +188,8 @@ li {
 .header-nav li {
   padding-top: 1em;
   text-transform: uppercase;
-  color: #E74E30; }
+  color: #E74E30;
+  cursor: pointer; }
 
 .about-content-slider {
   max-width: 85%;
