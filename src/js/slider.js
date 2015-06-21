@@ -18,7 +18,6 @@
 
 		
 			$('.home').click(function(){
-				alert('fire');
 				$(this).css({ 'color': black });
 				workButton.css({ 'color': orange});
 				aboutButton.css({ 'color': orange});
@@ -48,6 +47,17 @@
 			 contactContent.hide();
 			 $('.work').hide();
 			 aboutContent.fadeIn(3000);
+    });
+		
+		 contactButton.click(function () {
+			 $(this).css({ 'color': black });
+			 workButton.css({ 'color': orange});
+			 $('.home').css({ 'color': orange});
+			 heroTxt.hide();
+			 contactContent.hide();
+			 aboutContent.hide();
+			 $('.work').hide();
+			 contactContent.fadeIn(3000);
     });
 		   
 	};

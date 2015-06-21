@@ -134,8 +134,23 @@
 }
 
 .contact-list-ul {
+	text-align: center;
+	padding-top: 3em;
 	li {
+	padding: 20px;
 	font-family: hflr;
+	display: inline-block;
+	font-size: 3em;
+	}
+	
+	li a:hover {
+		color: #444444;
+	}
+}
+
+.contact-content {
+	p {
+		padding: 2em;
 	}
 }
 
@@ -146,7 +161,7 @@
 	li {
 //	width: auto !important;
 	overflow: hidden;
-	height: 200vh;
+	padding-bottom: 4em;
 	}
 }
 	
