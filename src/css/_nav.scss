@@ -5,6 +5,8 @@
   flex-wrap: wrap;
   min-height: 7vh;
 	padding-bottom: 1em;
+	position: relative;
+	z-index: 10000;
 }
 
 .header-nav li:first-child {

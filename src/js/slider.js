@@ -1,10 +1,10 @@
   app.slider = function () {
         var heroTxt = $('#rau-holder');
 				var aboutContent=$('.about-content');
-				var contactContent=$('.contact-content');
 				var aboutButton = $('.about-button');
 		    var workButton =$('.work-button');
 		    var contactButton =$('.contact-button');
+				var contactContent=$('.contact-content');
 		    var orange = '#E74E30';
 		    var black = '#444444';
 				
@@ -14,9 +14,11 @@
 				aboutContent.hide();
 				$('.work').hide();
 				contactContent.hide();
+		    console.log('hi');
 
 		
 			$('.home').click(function(){
+				alert('fire');
 				$(this).css({ 'color': black });
 				workButton.css({ 'color': orange});
 				aboutButton.css({ 'color': orange});
