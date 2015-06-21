@@ -39,7 +39,7 @@
 
 
 .work {
-	width: 100%;
+//	width: 100%;
 	margin: 0 auto;
 }
 
@@ -47,14 +47,13 @@
 //	padding-top: 5em;
 	li {
 	min-height: 93vh;
-	
+	padding-bottom: 4em;
 	}
 }
 
-
 .img-wrap {
 	text-align: center;
-	max-width: 50%;
+//	max-width: 50%;
 	margin: 0 auto;
 	height: 130px;
 }
@@ -74,7 +73,7 @@
 
 .work-p {
 	display: inline-block;
-	max-width: 30em;
+	max-width: 23em;
 	vertical-align: top;
 	margin: 0;
 	font-weight: 300;
@@ -132,4 +131,20 @@
 	border-radius: .3em;
 	background-color: $orange;
 	color: whitesmoke;
+}
+
+@media screen and (max-width: 500px) {
+
+.slides {
+//	padding-top: 5em;
+	li {
+//	width: auto !important;
+	overflow: hidden;
+	height: 200vh;
+	}
+}
+	
+	.work-laptop {
+		max-width: 300px;
+	}
 }

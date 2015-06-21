@@ -66,10 +66,15 @@ li {
 //  border: 1px solid gray;
 	position: absolute;
 	left: 50%;
-	top: 40%;
+	top: 20%;
 	transform: translate(-50%, -50%);
 	width: 100%;
 	height: 5em;
 	line-height: 1.4em;
 }
 
+@media screen and (max-width: 650px) {
+	#rau-holder {
+	 font-size: 3em;
+	}
+}

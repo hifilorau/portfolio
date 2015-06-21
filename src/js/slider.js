@@ -8,20 +8,20 @@
 				
 				$('.home').css({ 'color': black });
 			
-		  $('.flexslider').flexslider({
-					controlNav: false,
-				  slideshowSpeed: 40000, 
-				  prevText: "i",
-				  nextText: "h"
-				  
-				});
-		 
-		var sliderCtrl =$('.flex-direction-nav');
-		  sliderCtrl.hide();
+//		  $('.flexslider').flexslider({
+//					controlNav: false,
+//				  slideshowSpeed: 40000, 
+//				  prevText: "i",
+//				  nextText: "h"
+//				  
+//				});
+//		 
+//		var sliderCtrl =$('.flex-direction-nav');
+//		  sliderCtrl.hide();
 		  aboutContent.hide();
 		  $('.work').hide();
-		  
-			
+//		  
+//			
 		
 //			aboutButton.click(function(){
 //			heroTxt.hide();
