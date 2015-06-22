@@ -239,6 +239,7 @@ li {
 
 .work-image {
   max-width: 250px;
+  max-height: 85px;
   height: auto;
   margin: 3em auto 1.5em; }
 
@@ -276,6 +277,12 @@ li {
   background-color: #3072A8; }
   .work-betti p {
     color: whitesmoke; }
+
+.work-au {
+  background-color: white; }
+
+.work-brim {
+  background-color: #DBE3F0; }
 
 .flex-wrap {
   display: -webkit-flex;

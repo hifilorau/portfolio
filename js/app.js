@@ -57,7 +57,7 @@ app.colorChange = function(){
 				contactContent.hide();
 				heroTxt.hide();
 				aboutContent.hide();
-				$('.work').show();					
+				$('.work').fadeIn(2000);					
 			});
 		
 		 aboutButton.click(function () {
