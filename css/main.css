@@ -230,7 +230,7 @@ li {
 
 .slides li {
   min-height: 93vh;
-  padding-bottom: 4em; }
+  padding-bottom: 2em; }
 
 .img-wrap {
   text-align: center;
@@ -297,11 +297,11 @@ li {
 
 .hire-me-link {
   min-width: 600px;
-  border: 2px solid #E74E30;
-  padding: .35em 1em;
+  padding: .5em 2em;
   border-radius: .3em;
   background-color: #E74E30;
-  color: whitesmoke; }
+  color: whitesmoke;
+  text-transform: uppercase; }
 
 .contact-list-ul {
   text-align: center;
