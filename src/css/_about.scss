@@ -47,7 +47,7 @@
 //	padding-top: 5em;
 	li {
 	min-height: 93vh;
-	padding-bottom: 4em;
+	padding-bottom: 2em;
 	}
 }
 
@@ -126,11 +126,16 @@
 
 .hire-me-link {
 	min-width: 600px;
-	border: 2px solid $orange;
-	padding: .35em 1em;
+//	border: 2px solid $orange;
+	padding: .5em 2em;
 	border-radius: .3em;
 	background-color: $orange;
 	color: whitesmoke;
+	text-transform: uppercase;
+}
+
+.hire-me-link:hover {
+	
 }
 
 .contact-list-ul {
