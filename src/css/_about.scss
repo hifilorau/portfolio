@@ -60,6 +60,7 @@
 
 .work-image {
 	max-width: 250px;
+	max-height: 85px;
 	height: auto;
 	margin: 3em auto 1.5em;
 }
@@ -107,6 +108,15 @@
 	p {
 	color: whitesmoke;
 	}
+}
+
+.work-au {
+	background-color: white;
+}
+
+.work-brim {
+	background-color: #DBE3F0;
+
 }
 
 .flex-wrap {
