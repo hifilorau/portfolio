@@ -314,8 +314,10 @@ li {
   .contact-list-ul li a:hover {
     color: #444444; }
 
-.contact-content p {
-  padding: 2em; }
+.contact-content {
+  padding-top: 6em; }
+  .contact-content p {
+    padding: 2em; }
 
 @media screen and (max-width: 500px) {
   .slides li {
