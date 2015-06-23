@@ -251,19 +251,22 @@ li {
 
 .work-p {
   display: inline-block;
-  max-width: 23em;
+  max-width: 600px;
   vertical-align: top;
   margin: 0;
   font-weight: 300;
-  padding-top: 2.25em; }
+  padding-top: 2.25em;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
 
 .screen-shots {
   display: inline-block;
   padding-top: 1em;
   text-align: center;
-  -webkit-flex-grow: 1.2;
-  -ms-flex-positive: 1.2;
-  flex-grow: 1.2; }
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
 
 .work-laptop {
   max-width: 500px; }
@@ -333,4 +336,6 @@ li {
   .work-laptop {
     max-width: 300px; }
   .contact-content {
-    padding-top: 2em; } }
+    padding-top: 2em; }
+  .work-p {
+    max-width: 85%; } }
