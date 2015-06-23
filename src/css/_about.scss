@@ -74,12 +74,12 @@
 
 .work-p {
 	display: inline-block;
-	max-width: 23em;
+	max-width: 600px;
 	vertical-align: top;
 	margin: 0;
 	font-weight: 300;
 	padding-top: 2.25em;
-  
+  flex-grow: 1;
 //	padding-right: 2.5em;
 	
 }
@@ -88,7 +88,7 @@
 	display: inline-block;
 	padding-top: 1em;
 	text-align: center;
-	flex-grow: 1.2;
+	flex-grow: 1;
 }
 
 .work-laptop {
@@ -186,5 +186,9 @@
 	}
 	.contact-content {
 	padding-top: 2em;
+}
+	
+	.work-p {
+		max-width: 85%;
 }
 }
