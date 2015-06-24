@@ -18,6 +18,12 @@ app.colorChange = function(){
 	 
 	
 };
+app.hamburger = function(){
+	
+	$( '.menu-btn' ).click(function(){
+    	$('.responsive-menu').toggleClass('expand');
+    	     });
+};
   app.slider = function () {
         var heroTxt = $('#rau-holder');
 				var aboutContent=$('.about-content');
@@ -652,8 +658,8 @@ txt.textualizer('start');
 //txt.textualizer('pause');	// start
 	
 };
-
 app.transformText();
 app.slider();
 app.colorChange();
+app.hamburger();
 //# sourceMappingURL=app.js.map

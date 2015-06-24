@@ -197,6 +197,41 @@ li {
   color: #E74E30;
   cursor: pointer; }
 
+@media screen and (max-width: 500px) {
+  .menu-btn {
+    padding: 1em; }
+  .menu-btn div {
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.5em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99; }
+  .menu-btn span {
+    display: block;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: #E74E30;
+    z-index: 99; }
+  .responsive-menu {
+    display: none; }
+  .expand {
+    display: block !important; }
+  .header-nav {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 1em;
+    max-width: 100px;
+    border-left: none; }
+  .header-nav li {
+    padding-top: .5em; } }
+
 .about-content-slider {
   max-width: 85%;
   margin: 0 auto;
