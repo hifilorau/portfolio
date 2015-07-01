@@ -1,5 +1,5 @@
 app.transformText = function () {
-var list = ['I can make it better', 'Front-End Development', 'User Research', 'Usability Testing', 'UI/UX Design', 'Creativity', 'And Just Overall Ass-kicking.', 'I can make it better'];  // list of blurbs
+var list = [ 'I can make it better', 'Front-End Development', 'User Research', 'Usability Testing', 'UI/UX Design', 'Creativity', 'And Just Overall Ass-kicking.'];  // list of blurbs
 var txt = $("#rau-holder");
 	
 
